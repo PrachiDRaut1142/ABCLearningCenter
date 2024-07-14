@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+* {
+  box-sizing: border-box;
+}
+.menu {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  font-size: 18px;
+}
+.logo,
+.menu {
+  color: white;
+  background-color: black;
+}
+.menu a {
+  padding: 5px 0 15px 10px;
+  font-size: 20px;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: white;
+  font-size: 20px;
+  size: 38px;
+  background-color: black;
+  padding: 1% 1000px 0 1%;
+  display: inline-block;
+}
+header {
+  height: 50;
+  background-size: cover;
+  background-position: center;
+}
+.contact {
+  background-color: #fde992;
+  border: 1px;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+.content-wrap,
+.content-wrap a {
+  background-color: peru;
+  color: rgb(6, 6, 7);
+  text-align: center;
+  padding: 25px;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+a:hover {
+  text-decoration: none;
+}
+.fas {
+  font-size: 48px;
+  color: black;
+}

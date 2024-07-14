@@ -1,0 +1,101 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+* {
+  box-sizing: border-box;
+}
+.menu {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  font-size: 18px;
+}
+.logo,
+.menu {
+  color: white;
+  background-color: black;
+}
+.menu a {
+  padding: 5px 0 15px 10px;
+  font-size: 20px;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: white;
+  font-size: 20px;
+  size: 38px;
+  background-color: black;
+  padding: 1% 1000px 0 1%;
+  display: inline-block;
+}
+header {
+  height: 200;
+  background-size: cover;
+  background-position: center;
+}
+body {
+  background-color: #fde992;
+}
+.fas {
+  font-size: 48px;
+  color: white;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+.content-wrap,
+.content-wrap a {
+  background-color: peru;
+  color: rgb(6, 6, 7);
+  text-align: center;
+  padding: 25px;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  padding: 5px;
+}
+.image1 {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  padding: 5px;
+}
+.image1content {
+  width: 50%;
+  padding: 0 40 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+hr {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+h1,
+.faculties p {
+  font-family: "caviet", cursive;
+  font-size: 25px;
+  padding: 5px;
+}

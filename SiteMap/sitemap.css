@@ -1,0 +1,117 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+
+  .menu{
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    font-size: 18px; 
+  }
+  .logo,.menu{
+    color: white;
+    background-color: black;
+  }
+  .menu a{
+    padding:5px 0 15px 10px;
+    font-size: 20px;
+  }
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
+    font-size: 20px;
+    size:38px;
+    background-color: black;
+    padding: 1% 1000px 1% 1%;
+    display: inline-block;
+  }
+  
+header{
+
+  height: 100vh;
+  background-size: cover;
+  background-position: center;  
+  }
+
+  .fas{
+    font-size:48px;
+    color: black;
+  }
+
+  body {
+    background-color:#FDE992;
+    font-family: sans-serif;
+    margin: 0;
+  }
+
+  .content-wrap, .content-wrap a {
+    background-color:peru;
+    color:rgb(6, 6, 7);
+    text-align: center;
+    padding: 25px;
+   }
+
+  .contact-info a {
+    padding: 10px;
+    display: inline-block;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+   
+  
+.title{
+position: absolute;
+top: 35%;
+left:30%;
+transform: translate(-33%,-30%);
+}
+
+.title h1{
+color: black;
+font-size: 25px;
+}
+
+.title h2{
+color:black;
+font-size:35px;
+}
+
+p{
+  size:2cm
+}
+
+.content-wrap, .content-wrap a {
+  background-color:peru;
+  color:rgb(6, 6, 7);
+  text-align: center;
+  padding: 25px;
+ }
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.title a{
+  color: blue;
+ font-size:22px;
+}
+
+ 
+
+
