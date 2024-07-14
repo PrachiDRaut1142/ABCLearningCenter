@@ -19,15 +19,43 @@ The ABC Learning Centre Website is a comprehensive platform designed to provide 
 Wireframes were created using Balsamiq, a tool used to sketch out user interfaces. It helps in visualizing the layout and functionality of the website before actual development.
 
  ### Homepage
- ![alt text](image.png)
+ ![Homepage](./Reference./ReferenceImages/images/./ReferenceImages/image.png)
+
+ ### ABOUT US PAGE
+ ![ABOUT US PAGE](./ReferenceImages/image-1.png)
+
+ ### CONTACT US PAGE
+ ![CONTACT US PAGE](./ReferenceImages/image-2.png)
+
+ ### PRIVACY POLICY PAGE
+ ![PRIVACY POLICY PAGE](./ReferenceImages/image-3.png)
+
+### SITEMAP PAGE
+![SITEMAP PAGE](./ReferenceImages/image-4.png)
+
+### COURSE DETAILS PAGE
+![COURSE DETAILS PAGE](./ReferenceImages/image-5.png)
+
+### COURSE SCHEDULE PAGE
+![COURSE SCHEDULE PAGE](./ReferenceImages/image-6.png)
+
+### LEAD REGISTRATION PAGE
+![LEAD REGISTRATION PAGE](./ReferenceImages/image-7.png)
+
+### THANK YOU PAGE
+![THANK YOU PAGE](./ReferenceImages/image-8.png)
 
 ### Storyboards
 
 Storyboards were created to depict the sequence of interactions a user might have with the website. They help in understanding the flow and ensuring a smooth user experience.
 
+![Storyboards](./ReferenceImages/image-9.png)
+
 ### Information Architecture
 
 Information Architecture (IA) involves the organization of the website's content. It ensures that users can easily navigate and find the information they need.
+
+![Information Architecture](./ReferenceImages/image-10.png)
 
 ### Pages Created
 
@@ -63,15 +91,44 @@ Steps for hosting the website on Apache server:
 
 1. Open the folder containing all HTML, CSS, and JavaScript files.
 2. Copy the path of the folder.
+
+![PROJECT FOLDER](./ReferenceImages/image-11.png)
+
 3. Open the `httpd` file located at `C:\Program Files (x86)\Apache Software Foundation\Apache2.2\conf` in VS Code.
+
+![APACHE FOLDER](./ReferenceImages/image-12.png)
+
 4. Add the following configurations:
    - Add your email or Gmail ID on line 161.
+
+    ![CONF FILE](./ReferenceImages/image-13.png)
+
    - Add the document root and the desired URL for your website.
+
+    ![CONF FILE](./ReferenceImages/image-14.png)
+
 5. Click on "Retry as Administrator" and then "Yes" on the dialogue box that appears.
+
+![VSC ERROR](./ReferenceImages/image-15.png)
+
 6. Open Command Prompt as administrator, navigate to the bin directory, and restart the system using the restart command.
+
+![CMD](./ReferenceImages/image-16.png)
+
 7. Modify the `hosts` file located at `C:\Windows\System32\drivers\etc` to include the desired URL with the device's IP address.
+
+![DRIVERS HOST FOLDER](./ReferenceImages/image-17.png)
+
+![DRIVERS HOST FILE](./ReferenceImages/image-18.png)
+
 8. Restart the system as instructed.
+
+![VSC ERROR](./ReferenceImages/image-19.png)
+![CMD TO RESTART](./ReferenceImages/image-20.png)
+
 9. Open Chrome and enter the URL (e.g., www.ABC-Learning-Center.com) to view the hosted site.
+
+![HOSTED PROJECT LOCALLY ON APACHE SERVER](./ReferenceImages/image-21.png)
 
 ## References
 
