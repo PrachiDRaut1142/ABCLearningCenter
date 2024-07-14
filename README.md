@@ -18,7 +18,7 @@ The ABC Learning Centre Website is a comprehensive platform designed to provide 
 
 Wireframes were created using Balsamiq, a tool used to sketch out user interfaces. It helps in visualizing the layout and functionality of the website before actual development.
 
- **Homepage:**
+ ### Homepage
  ![alt text](image.png)
 
 ### Storyboards
