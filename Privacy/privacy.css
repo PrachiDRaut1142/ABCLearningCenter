@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
@@ -24,6 +25,7 @@ header {
   height: 90vh;
   width: 100%;
 }
+
 .fas {
   font-size: 48px;
   color: white;
@@ -51,9 +53,11 @@ body {
   padding: 5px 0 15px 10px;
   font-size: 20px;
 }
+
 h1 {
   font-size: 35px;
 }
+
 .menu {
   position: absolute;
   top: 10px;
